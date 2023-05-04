@@ -1,0 +1,24 @@
+.input {
+    text-align: center;
+    margin: 40px auto;
+  }
+  
+  .user-input {
+    text-align: center;
+    height: 70px;
+    width: 600px;
+    border-radius: 4px;
+    resize: vertical;
+    border-radius: 10px;
+    border: none;
+    background-color: #146c94;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+  }
+  @media screen and (max-width: 620px) {
+    .user-input {
+      height: 70px;
+      width: 200px;
+    }
+  }
+  
