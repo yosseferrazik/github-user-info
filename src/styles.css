@@ -1,0 +1,86 @@
+/*////////////////////////////////////////*/
+/*////////////// GLOBAL //////////////////*/
+/*////////////////////////////////////////*/
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Libre+Baskerville&display=swap");
+
+html,
+body {
+  margin: 0;
+  color: #f6f1f1;
+  text-rendering: optimizeLegibility;
+  background: #19a7ce no-repeat fixed center;
+  background-size: cover;
+}
+.main {
+  padding: 75px 175px;
+  flex-wrap: wrap;
+  font-weight: 500;
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+div,
+button,
+h3,
+h1,
+h2 {
+  font-family: "League Spartan", sans-serif;
+}
+p,
+li,
+ul,
+pre,
+a,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", serif;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+button {
+  border-style: none;
+  color: white;
+  background: #146c94;
+  margin: 10px;
+  padding: 23px;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+button:active {
+  padding: 19px;
+  margin: 19px;
+}
+
+@media screen and (max-width: 620px) {
+  div,
+  button,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  }
+  p,
+  li,
+  ul,
+  pre,
+  a {
+  }
+  .main {
+    padding: 30px 30px;
+  }
+}
