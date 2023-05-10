@@ -6,7 +6,7 @@ export default function Home() {
       <h1>Github user info</h1>
       <p>
         Consigue informacion sobre algun usuario de Github con solo su nombre
-        de usuario
+        de usuario . <a href="https://github.com/yosseferrazik">Creditos</a>
       </p>
     </div>
   );
